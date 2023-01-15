@@ -19,3 +19,9 @@ Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and 
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
+
+# Docker setup
+
+docker build --tag hello-nx .
+
+docker run -p 4200:4200 hello-nx
